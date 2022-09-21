@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="kop"></div>
+        <div class="header">
+            <h1>FORMULIR PENDAFTARAN PASIEN BARU</h1>
+            <h2>PERHATIAN: HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</h2>
+        </div>
+        <form method="post" onsubmit="main()">
+            <h3>I. IDENTITAS PASIEN</h3>
+            <div class="q">
+                <label for="nama_pasien">Nama Pasien</label>
+                <input type="text" name="nama_pasien" id="nama_pasien">
+            </div>
+            <div class="q">
+                <label for="tempat_lahir">Tempat Lahir</label>
+                <input type="text" name="tempat_lahir" id="tempat_lahir">
+            </div>
+            <div class="q">
+                <label for="tanggal_lahir">Tanggal Lahir</label>
+                <input type="text" name="tanggal_lahir" id="tanggal_lahir">
+            </div>
+            <div class="q">
+                <label for="jenis_kelamin">Jenis Kelamin</label>
+                <input type="text" name="jenis_kelamin" id="jenis_kelamin">
+            </div>
+            <div class="q">
+                <label for="alamat">Alamat</label>
+                <input type="text" name="alamat" id="alamat">
+                <input type="text" name="RT" id="RT" placeholder="RT">
+                <input type="text" name="RW" id="RW" placeholder="RW">
+            </div>
+            <div class="q">
+                <label for="provinsi">Provinsi</label>
+                <input type="text" name="provinsi" id="provinsi">
+            </div>
+            <div class="q">
+                <label for="kecamatan">Kecamatan</label>
+                <input type="text" name="kecamatan" id="kecamatan">
+            </div>
+            <div class="q">
+                <label for="kelurahan_desa">Kelurahan/Desa</label>
+                <input type="text" name="kelurahan_desa" id="kelurahan_desa">
+            </div>
+            <div class="q">
+                <label for="no_tel">No. Tel/HP</label>
+                <input type="text" name="no_tel" id="no_tel">
+            </div>
+            <div class="q">
+                <label for="kode_pos">Kode Pos</label>
+                <input type="text" name="kode_pos" id="kode_pos">
+            </div>
+            <div class="q">
+                <label for="agama">Agama</label>
+                <select name="agama" id="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen Protestan">Kristen Protestan</option>
+                    <option value="Kristen Katolik">Kristen Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>
+            </div>
+            <div class="q">
+                <label for="pendidikan_terakhir">Pendidikan Terakhir</label>
+                <input type="text" name="pendidikan_terakhir" id="pendidikan_terakhir">
+            </div>
+            <div class="q">
+                <label for="pekerjaan">Pekerjaan</label>
+                <input type="text" name="pekerjaan" id="pekerjaan">
+            </div>
+            <h3>II. PENANGGUNG JAWAB PASIEN</h3>
+            <div class="q">
+                <label for="hub">Hubungan Dengan Pasien</label>
+                <input type="text" name="hub" id="hub">
+            </div>
+            <div class="q">
+                <label for="nama_pj">Nama Penanggung Jawab</label>
+                <input type="text" name="nama_pj" id="nama_pj">
+            </div>
+            <div class="q">
+                <label for="pendidikan_pj">Pendidikan P. Jawab</label>
+                <input type="text" name="pendidikan_pj" id="pendidikan_pj">
+            </div>
+            <div class="q">
+                <label for="pekerjaan_pj">Pekerjaan P. Jawab</label>
+                <input type="text" name="pekerjaan_pj" id="pekerjaan_pj">
+            </div>
+            <div class="tanda_tangan">Tanda Tangan</div>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
