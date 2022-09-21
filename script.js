@@ -1,23 +1,23 @@
 function main(){
-    const nama_pasien = document.getElementById("nama_pasien");
-    const tempat_lahir = document.getElementById("tempat_lahir");
-    const tanggal_lahir = document.getElementById("tanggal_lahir");
-    const jenis_kelamin = document.getElementById("jenis_kelamin");
-    const alamat = document.getElementById("alamat");
-    const RT = document.getElementById("RT");
-    const RW = document.getElementById("RW");
-    const provinsi = document.getElementById("provinsi");
-    const kecamatan = document.getElementById("kecamatan");
-    const kelurahan_desa = document.getElementById("kelurahan_desa");
-    const no_tel = document.getElementById("no_tel");
-    const kode_pos = document.getElementById("kode_pos");
-    const agama = document.getElementById("agama");
-    const pendidikan_terakhir = document.getElementById("pendidikan_terakhir");
-    const pekerjaan = document.getElementById("pekerjaan");
-    const hub = document.getElementById("hub");
-    const nama_pj = document.getElementById("nama_pj");
-    const pendidikan_pj = document.getElementById("pendidikan_pj");
-    const pekerjaan_pj = document.getElementById("pekerjaan_pj");
+    const nama_pasien = document.getElementById("nama_pasien").value;
+    const tempat_lahir = document.getElementById("tempat_lahir").value;
+    const tanggal_lahir = document.getElementById("tanggal_lahir").value;
+    const jenis_kelamin = document.getElementById("jenis_kelamin").value;
+    const alamat = document.getElementById("alamat").value;
+    const RT = document.getElementById("RT").value;
+    const RW = document.getElementById("RW").value;
+    const provinsi = document.getElementById("provinsi").value;
+    const kecamatan = document.getElementById("kecamatan").value;
+    const kelurahan_desa = document.getElementById("kelurahan_desa").value;
+    const no_tel = document.getElementById("no_tel").value;
+    const kode_pos = document.getElementById("kode_pos").value;
+    const agama = document.getElementById("agama").value;
+    const pendidikan_terakhir = document.getElementById("pendidikan_terakhir").value;
+    const pekerjaan = document.getElementById("pekerjaan").value;
+    const hub = document.getElementById("hub").value;
+    const nama_pj = document.getElementById("nama_pj").value;
+    const pendidikan_pj = document.getElementById("pendidikan_pj").value;
+    const pekerjaan_pj = document.getElementById("pekerjaan_pj").value;
 
     if(nama_pasien.length <= 0){
 		alert("Isi Nama Pasien-mu!");
